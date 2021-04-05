@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.11.10
 ARG commit
 ARG token
 ENV COMMIT=${commit}
